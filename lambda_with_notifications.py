@@ -154,7 +154,6 @@ def send_pump_command(action, duration=10):
 
 def get_weather_forecast():
     """Simplified weather fetch"""
-    # Your existing weather API code
     return {'rain_probability': 20, 'temperature': 25}
 
 def response(status, moisture):
