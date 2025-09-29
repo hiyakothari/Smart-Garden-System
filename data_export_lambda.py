@@ -80,7 +80,7 @@ def lambda_handler(event, context):
     
     print(f"Exported {len(filtered_items)} records to s3://{BUCKET_NAME}/{s3_key}")
     
-    # Optional: Generate summary stats
+    # Generate summary stats
     generate_summary(filtered_items, date_str)
     
     return {
